@@ -1,0 +1,8 @@
+{
+  "name": "@compre-facil/payment-service",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "dev": "tsx src/index.ts", "build": "tsc -p tsconfig.json", "start": "node dist/index.js", "test": "vitest run" },
+  "dependencies": { "@compre-facil/contracts": "*", "amqplib": "^0.10.5", "fastify": "^5.2.1", "pg": "^8.13.1" },
+  "devDependencies": { "@types/amqplib": "^0.10.6", "@types/pg": "^8.11.10", "tsx": "^4.19.2" }
+}

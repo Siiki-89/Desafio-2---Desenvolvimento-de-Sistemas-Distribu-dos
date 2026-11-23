@@ -1,0 +1,7 @@
+{
+  "name": "@compre-facil/contracts",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/events.js",
+  "types": "dist/events.d.ts"
+}

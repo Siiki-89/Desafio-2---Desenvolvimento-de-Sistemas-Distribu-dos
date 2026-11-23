@@ -1,0 +1,6 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": { "rootDir": "src", "outDir": "dist", "composite": true, "paths": { "@compre-facil/contracts/*": ["../packages/contracts/src/*"] } },
+  "references": [{ "path": "../packages/contracts" }],
+  "include": ["src/**/*.ts"]
+}
